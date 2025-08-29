@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vibe Code: AI Collaborative Coding</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@livekit/components-styles@^1.1.6/dist/index.css" />
+    <style>
+      /* For LiveKit GridLayout */
+      .lk-grid-layout {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-auto-rows: 1fr;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.16.0",
+    "@livekit/components-react": "https://aistudiocdn.com/@livekit/components-react@^2.9.14",
+    "livekit-client": "https://aistudiocdn.com/livekit-client@^2.15.6",
+    "@vercel/node": "https://aistudiocdn.com/@vercel/node@^5.3.17",
+    "livekit-server-sdk": "https://aistudiocdn.com/livekit-server-sdk@^2.13.3"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-900 text-white antialiased">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

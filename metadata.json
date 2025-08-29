@@ -1,0 +1,8 @@
+{
+  "name": "Vibe Code: AI Collaborative Coding",
+  "description": "A web application where two developers can join a video call, share their screens and cameras, and interact with a multimodal AI agent that has full context of both developers' work to provide holistic assistance.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
